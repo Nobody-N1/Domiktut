@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Semibold;
+}
+.parentelemnt:hover{
+    margin-bottom: 80px;
+}
+.parentelemnt:hover .childelemnt{
+    display: block;
+    height: 79px;
+    width: 1400px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    
+}
+
+
+@font-face {
+    font-family: Roboto-Semibold;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Bold;
+    src: url(./assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Medium;
+    src: url(./assets/fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Semibold;
+    src: url(./assets/fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: Extrabold;
+    src: url(./assets/fonts/Raleway-ExtraBold.ttf);
+}
